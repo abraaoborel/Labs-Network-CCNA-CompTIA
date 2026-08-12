@@ -47,7 +47,7 @@ Reply from 10.0.2.10: bytes=32 time<1ms TTL=127
 
 Ping statistics for 10.0.2.10:
     Packets: Sent = 4, Received = 3, Lost = 1 (25% loss)
-
+```
 Obs: O teste inverso (DMZ ➡️ LAN) também foi realizado com 100% de sucesso.
 
 ## 🔍 Análise Técnica do Resultado
