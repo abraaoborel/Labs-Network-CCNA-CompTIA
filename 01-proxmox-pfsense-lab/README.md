@@ -55,4 +55,4 @@ Obs: O teste inverso (DMZ ➡️ LAN) também foi realizado com 100% de sucesso.
 
 * **Primeiro pacote (Timeout):** Comportamento esperado devido à resolução de endereço via protocolo ARP no primeiro contato.
 
-* **TTL = 127:** O valor original (128) foi decrementado em 1 ao passar por um "salto" (hop) no roteador RT-PRINCIPAL, provando tecnicamente o roteamento ativo.
+* **TTL = 127:** O valor original (128) foi decrementado em 1 ao passar por um "salto" (hop) no roteador RT-PRINCIPAL, é consistente com a passagem por um salto de camada 3.
