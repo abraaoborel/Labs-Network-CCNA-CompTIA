@@ -8,7 +8,7 @@ O endereçamento foi planejado para garantir escalabilidade e segurança:
 
 | Segmento | Rede (CIDR) | Gateway | VLAN ID | Função |
 | :--- | :--- | :--- | :--- | :--- |
-| **Management** | 192.168.1.100/24 | .1 | 1 | Acesso ao Proxmox e WAN |
+| **Management** | 192.168.1.100/24 | 192.168.1.1 | 1 | Acesso ao Proxmox e WAN |
 | **LAN (Trusted)** | 10.0.1.0/24 | 10.0.1.1 | 10 | Windows Server e Zabbix |
 | **DMZ (Docker)** | 10.0.2.0/24 | 10.0.2.1 | 20 | Ubuntu Server e Aplicações Web |
 
