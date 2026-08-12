@@ -6,7 +6,7 @@ Projetar uma rede segmentada para simular um ambiente corporativo real, isolando
 ## 🗺️ Topologia Lógica (Planejamento)
 O endereçamento foi planejado para garantir escalabilidade e segurança:
 
-| Segmento | Endereço | Gateway | VLAN ID | Função |
+| Segmento | Endereço IPv4 (CIDR) | Gateway | VLAN ID | Função |
 | :--- | :--- | :--- | :--- | :--- |
 | **Management** | 192.168.1.100/24 | 192.168.1.1 | 1 | Acesso ao Proxmox e WAN |
 | **LAN (Trusted)** | 10.0.1.0/24 | 10.0.1.1 | 10 | Windows Server e Zabbix |
